@@ -1,4 +1,5 @@
-class Sprite{
+
+class Chicken{
   constructor (animation, x, y, speed){
     this.x = x;
     this.y = y;
@@ -13,6 +14,7 @@ class Sprite{
    let index = floor(this.index) % this.len;
    image(this.animation[index],this.x, this.y);
   }
+
 
   animate(){
     this.index += this.speed;

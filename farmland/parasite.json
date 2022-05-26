@@ -1,0 +1,22 @@
+{
+	"frames": [
+		{
+		"name" : "RunRight01.png",
+		"position": {
+			"x": 0,
+			"y": 0,
+			"w": 150,
+			"h": 84
+		}
+	},
+	{
+		"name" :	"RunRight02.png",
+		"position": {
+			"x": 150,
+			"y": 0,
+			"w": 150,
+			"h": 84
+		}
+	}
+]
+}

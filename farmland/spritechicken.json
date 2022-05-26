@@ -1,0 +1,88 @@
+{
+	"frames": [
+		{
+		"name" : "RunRight01.png",
+		"position": {
+			"x": 0,
+			"y": 0,
+			"w": 100,
+			"h": 100
+		}
+	},
+	{
+		"name" :	"RunRight02.png",
+		"position": {
+			"x": 100,
+			"y": 0,
+			"w": 100,
+			"h": 100
+		}
+	},
+
+	{
+		"name" : "RunRight03.png",
+		"position": {
+			"x": 200,
+			"y": 0,
+			"w": 100,
+			"h": 100
+		}
+	},
+
+	{
+		"name" : "RunRight04.png",
+		"position": {
+			"x": 0,
+			"y": 100,
+			"w": 100,
+			"h": 100
+		}
+	},
+  {
+		"name" : "RunRight05.png",
+		"position": {
+			"x": 100,
+			"y": 100,
+			"w": 100,
+			"h": 100
+		}
+	},
+  {
+		"name" : "RunRight06.png",
+		"position": {
+			"x": 200,
+			"y": 100,
+			"w": 100,
+			"h": 100
+		}
+	},
+
+  {
+		"name" : "RunRight07.png",
+		"position": {
+			"x": 0,
+			"y": 200,
+			"w": 100,
+			"h": 100
+		}
+	},
+  {
+		"name" : "RunRight08.png",
+		"position": {
+			"x": 100,
+			"y": 200,
+			"w": 100,
+			"h": 100
+		}
+	},
+  {
+		"name" : "RunRight09.png",
+		"position": {
+			"x": 200,
+			"y": 200,
+			"w": 100,
+			"h": 100
+		}
+	}
+ ]
+}
