@@ -22,7 +22,6 @@ function preload(){
   spritedata = loadJSON('spritechicken.json');
   spritesheet = loadImage('images/chicken.png');
 
-  //
   // spritedata2 = loadJSON('spritesky.json');
   // spritesheet2 = loadImage('bg1.png');
 }
@@ -39,13 +38,12 @@ function setup() {
 
   for (let i=0; i<10; i++){
   let xpos = i*150+100;
-  chickens[i] = new Sprite (animation, xpos, 100, 0.2, 2);
+    chickens[i] = new Sprite (animation, xpos, 100, 0.2, 2);
   }
-    setTimeout(textDis,2000);
-    setTimeout(newShape,4000);
+    setTimeout(textDis,18000);
+    setTimeout(newShape,2000);
   // }
 }
-
 
 function textDis(){
 showText=true;
@@ -85,10 +83,7 @@ function draw() {
    if (shapeDraw){
     fill(51);
     rect(20, 20, 60, 60);
-
-   }
-
-
+  }
 }
 
 

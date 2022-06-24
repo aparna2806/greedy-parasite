@@ -1,43 +1,28 @@
-let words = ["rainbow", "heart", "purple", "friendship","mdef", "cute"];
+let listWords = ["rainbow", "heart", "purple", "friendship","mdef", "cute"];
+let words = [];
 
-let changeBlue = false;
-let ypos;
-
-function setup(){
- createCanvas(windowWidth,windowHeight);
- background('yellow');
+function preload(){
+ chickendata = loadJSON('spritechicken.json');
+ chickensheet = loadImage('images/chicken.png');
 }
 
- function mouseHover(){
-  if(mouseX > 50 && mouseX < 180 &&
-    mouseY > 30 && mouseY < 80) {
-      changeBlue=true;
-    }
-    else{
-      changeBlue=false;
-    }
-  }
-  // x+=i;
-  // y+=i;
 
+function setup(){
+  createCanvas(windowWidth,windowHeight);
+  for(let i=0; i<listWords.length; i++){
+    let ypos= 50 + 50 * i;
+    console.log(i);
+    words[i] = new WordRender(listWords[i], 50, ypos);
+  }
+  // words[i] = new Rainbow(listWords[i], 50, ypos);
+}
 
 function draw(){
-console.log(mouseX, mouseY);
- mouseHover();
-
- if(changeBlue){
-   fill(0,0,255);
-   ellipse(250,250,30,30);
-  }
- else{
-   background(0,255,0);
-  }
-
- fill(0);
- textSize(32);
-
- for (let i=0; i< words.length; i++){
-    ypos= 80 + 70 * i;
-   text(words[i], 60, ypos);
+background('#0B32E4');
+  for(let i=0;i<listWords.length;i++){
+    words[i].isDetected();
+    words[i].displayWords();
+    words[i].updateGraphics();
+    words[i].renderGraphics();
   }
 }

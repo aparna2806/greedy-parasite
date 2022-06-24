@@ -1,13 +1,13 @@
 
 let img; // creates image variable
 
-let size = 11 // element size
+let size = 3; // element size
 
 let startx = 0 // starting x coordinate
 let starty = 0 //
 
 function preload() {
-  img = loadImage('images/flame.png'); // preloads flame picture
+  img = loadImage('images/p1.png'); // preloads flame picture
 }
 
 function setup(){
@@ -15,15 +15,14 @@ function setup(){
   createCanvas(windowWidth, windowHeight); // creates canvas
 
   img.loadPixels(); // loads image
-  img.resize(windowWidth, 0); // resizes image to window size
-  img.updatePixels(); // updates image
-
+  img.resize(300,250); // resizes image to window size
+  // img.updatePixels(); // updates image
+clear();
 }
 
 function draw(){
-clear();
-background(0);
 
+background(255,0,0);
 
 for (var starty = 0; starty < img.height; starty++) { // creates pixel index
     for (var startx = 0; startx < img.width; startx++) {
