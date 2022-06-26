@@ -31,7 +31,7 @@ function preload(){
 
   //timetick
   time =setTimeout(homePage, timelimit);
-  setTimeout(introPage, 20000);
+  setTimeout(introPage, 8000);
   // setTimeout(wordPage, 19000);
 
   one= loadImage('images/p7.png');
