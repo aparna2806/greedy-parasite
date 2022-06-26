@@ -31,7 +31,7 @@ function preload(){
 
   //timetick
   time =setTimeout(homePage, timelimit);
-  setTimeout(introPage, 2000);
+  setTimeout(introPage, 200000);
   // setTimeout(wordPage, 19000);
 
   one= loadImage('images/p7.png');
@@ -158,7 +158,7 @@ function draw() {
     textSize(43);
     fill('eff7f6');
     text(theme, 420, themey+15,720,930);
-    themey = themey - 8;
+    themey = themey - 6;
 
     if (themey < -2) {
       themey = height;
