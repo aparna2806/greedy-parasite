@@ -70,7 +70,7 @@ function setup(){
   words[5] = new FifthWord('Multispecies Heartbreaker', 40, 470);
   words[6] = new SixthWord('Catalyiser for Accidental Lives', 40, 540);
   words[7] = new SeventhWord('Far-Reaching Parasites', 40, 610);
-  words[8] = new EightWord ("??What's This About??", 40, 870);
+  words[8] = new EightWord ("??What's This About??", 40, 700);
 }
 
 //
