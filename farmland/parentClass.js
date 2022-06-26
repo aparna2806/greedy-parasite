@@ -31,7 +31,7 @@ class WordRender{
       fill('white');
     }
     else{
-      fill('#ff009b');
+      fill('#60d394');
     }
     textFont(font1);
     textSize(52);

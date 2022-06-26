@@ -6,7 +6,7 @@ let font1;
 let time;
 let homepage=false;
 let mousemove;
-let timelimit = 600000;
+let timelimit = 800000;
 
 let introElements=false;
 
@@ -31,7 +31,7 @@ function preload(){
 
   //timetick
   time =setTimeout(homePage, timelimit);
-  setTimeout(introPage, 7000);
+  setTimeout(introPage, 2000);
   // setTimeout(wordPage, 19000);
 
   one= loadImage('images/p7.png');
@@ -105,19 +105,19 @@ function wordPage(){
 
 
 function draw() {
-    // background('#ff009b');
-    // background('#f72585');
-    background('#ff69eb');
+    background('#ff009b');
+    // background('#f72585'); red
+    // background('#ff69eb');
     for (var b = 0; b < circles.length; b++) {
     circles[b].show();
     textFont(font1);
-    textSize(180);
+    textSize(190);
     fill('white');
     // text('EPOCH OF THE',550,540);
-    text('EPOCH OF THE',340,400);
+    text('EPOCH OF THE',310,400);
     textSize(200);
     // text('GREEDY PARASITE',370,690);
-    text('GREEDY PARASITE',185,580);
+    text('GREEDY PARASITE',135,580);
     // circles[b].render();
   }
 

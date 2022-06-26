@@ -25,7 +25,7 @@ class EightWord extends WordRender{
       this.g.textSize(29);
       this.g.fill('white');
 
-      this.g.text('The above words are an attempt to get out of our individual heads and look at us humans collectively as a species. The project comes from a desperate need to answer the question:how are we doing as a species? in a world full of ecological dependent relationships. I went on to give adjectives to us as parasitical creatures as our relationship to the planet is the same as a leech has to us. These adjectives emerge from multi disciplines - from biology to philosophy to theology. I always wanted to know what would people from different disciplines and their expertise think of us as species. It’s this effort to create such a space.',50,50,600,400);
+      this.g.text('The above words are an attempt to get out of our individual heads and look at us humans collectively as a species. The project comes from a desperate need to answer the question:how are we doing as a species? in a world full of ecological dependent relationships. I went on to give adjectives to us as parasitical creatures as our relationship to the planet is the same as a leech has to us. These adjectives emerge from biology to philosophy to theology. The intention is to unify knowledge from different disciplines as raw material to assess our own understanding of us as species.',50,20,600,500);
 
 
 //       fill(255,0,0);
@@ -96,11 +96,11 @@ class SixthWord extends WordRender{
         this.g.textSize(29);
         this.g.fill('white');
 
-        this.g.text('While humans fit into\nindustrial, urban and\nhyper-individual systems\nbuilt under capitalism,\nThe terraformed planet\npaved into a blessing for a few.\nCyanobacteria thrive\nin anthropogenic land,\ncephalopods grow \nin the warm sea,\narchaea bacteria triple \nin the piss acidic paris lanes',50,60,600,400);
+        this.g.text('While humans fit into\nindustrial, urban and\nhyper-individual systems\nbuilt under capitalism,\nThe terraformed planet\npaved into a blessing for a few.\nCyanobacteria thrive\nin anthropogenic land,\nCephalopods grow in the warm sea,\nArchaea bacteria triple \nin the piss acidic paris lanes',30,30,600,500);
       }
 
       if(this.showImg){
-        this.g.image(this.seven,330,210,340,270);
+        this.g.image(this.seven,400,210,330,260);
       }
 
       else {
@@ -167,7 +167,7 @@ class FourthWord extends WordRender{
       }
 
       if(this.showImg){
-        this.g.image(this.five,330,65,440,420);
+        this.g.image(this.five,380,65,440,420);
       }
 
       else {
